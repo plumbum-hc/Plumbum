@@ -1,0 +1,30 @@
+{
+  "showTitle": true,
+  "showBasemap": false,
+  "showLegend": true,
+  "expandAllLayersByDefault": true,
+  "contextMenu": {
+    "ZoomTo": true,
+    "Transparency": true,
+    "SetVisibilityRange": true,
+    "EnableOrDisablePopup": true,
+    "ControlLabels": true,
+    "MoveupOrMovedown": true,
+    "OpenAttributeTable": true,
+    "DescriptionOrShowItemDetailsOrDownload": true
+  },
+  "layerOptions": {
+    "Ubicacion_Contenedores_8050": {
+      "display": true
+    },
+    "Ubicacion_Contenedores_8050_7599": {
+      "display": false
+    },
+    "Ubicacion_Contenedores_8050_7599_9952": {
+      "display": true
+    },
+    "Finales_act_130_2055": {
+      "display": false
+    }
+  }
+}

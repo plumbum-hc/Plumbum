@@ -1,0 +1,604 @@
+{
+  "theme": {
+    "name": "LaunchpadTheme",
+    "styles": [
+      "style3",
+      "style2",
+      "default"
+    ],
+    "version": "2.19",
+    "sharedTheme": {
+      "isPortalSupport": true,
+      "useHeader": false,
+      "useLogo": false
+    },
+    "customStyles": {
+      "mainBackgroundColor": "#606463"
+    }
+  },
+  "portalUrl": "https://plumbum.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "Contenedores de Plomo",
+  "subtitle": "Proyecto Plumbum®",
+  "keepAppState": true,
+  "logo": "images/logo.png",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [
+    {
+      "label": "Proyecto Plumbum",
+      "url": "http://www.proyectoplumbum.com/"
+    },
+    {
+      "label": "Datos recogida plomo",
+      "url": "https://plumbum.maps.arcgis.com/apps/opsdashboard/index.html#/735ce8b0fbef480394823e92ddcbe891"
+    }
+  ],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/LaunchpadTheme/widgets/AnchorBarController/Widget",
+        "position": {
+          "bottom": 10,
+          "height": 40,
+          "relativeTo": "map",
+          "zIndex": 0
+        },
+        "version": "2.19",
+        "id": "themes_LaunchpadTheme_widgets_AnchorBarController_Widget_20",
+        "name": "AnchorBarController"
+      },
+      {
+        "uri": "themes/LaunchpadTheme/widgets/Header/Widget",
+        "position": {
+          "left": 15,
+          "top": 17,
+          "width": 670,
+          "height": 46,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "themes_LaunchpadTheme_widgets_Header_Widget_21",
+        "name": "Header"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "left": 350,
+          "top": 25,
+          "width": 300,
+          "zIndex": 1,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_Search_Widget_22",
+        "name": "Search"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "right": 20,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_OverviewMap_Widget_23",
+        "name": "OverviewMap"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "left": 25,
+          "top": 95,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_ZoomSlider_Widget_24",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 25,
+          "top": 175,
+          "relativeTo": "map"
+        },
+        "id": "widgets_HomeButton_Widget_25",
+        "name": "HomeButton",
+        "version": "2.19"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 25,
+          "top": 215,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_MyLocation_Widget_26",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/About/Widget",
+        "version": "2.19",
+        "position": {
+          "right": 20,
+          "bottom": 80,
+          "relativeTo": "map"
+        },
+        "closeable": true,
+        "id": "widgets_AttributeTable_Widget_27",
+        "placeholderIndex": 1,
+        "name": "About",
+        "config": "configs/About/config_widgets_AttributeTable_Widget_27.json",
+        "label": "Qué es Plumbum",
+        "openAtStart": true
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 20,
+          "bottom": 60,
+          "relativeTo": "map"
+        },
+        "id": "widgets_Coordinate_Widget_28",
+        "name": "Coordinate",
+        "version": "2.19"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 27,
+          "bottom": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_Scalebar_Widget_29",
+        "name": "Scalebar"
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.19",
+        "id": "widgets_Splash_Widget_30",
+        "name": "Splash",
+        "config": "configs/Splash/config_widgets_Splash_Widget_30.json"
+      },
+      {
+        "position": {
+          "right": 230,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_31",
+        "name": "Infographic",
+        "label": "Puntos limpios",
+        "version": "2.19",
+        "closeable": true,
+        "icon": "configs\\Infographic\\icon__31.png",
+        "uri": "widgets/Infographic/Widget",
+        "config": "configs/Infographic/config__31.json"
+      },
+      {
+        "position": {
+          "right": 130,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_32",
+        "name": "Share",
+        "version": "2.19",
+        "closeable": true,
+        "uri": "widgets/Share/Widget",
+        "config": "configs/Share/config__32.json"
+      },
+      {
+        "position": {
+          "right": 180,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_33",
+        "version": "2.19",
+        "closeable": true,
+        "uri": "widgets/InfoSummary/Widget",
+        "name": "InfoSummary",
+        "label": "Listado de contenedores",
+        "IsController": false,
+        "config": "configs/InfoSummary/config__33.json"
+      },
+      {
+        "uri": "widgets/ExtentNavigate/Widget",
+        "visible": false,
+        "position": {
+          "top": 255,
+          "left": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_ExtentNavigate_Widget_34",
+        "name": "ExtentNavigate"
+      },
+      {
+        "uri": "widgets/FullScreen/Widget",
+        "visible": false,
+        "position": {
+          "right": 70,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_FullScreen_Widget_35",
+        "name": "FullScreen"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "c9923d2a7f36482b9df8d3b7524f37d5",
+    "mapOptions": {
+      "extent": {
+        "xmin": -1526264.663684877,
+        "ymin": 3955976.289279168,
+        "xmax": 1252374.1885371115,
+        "ymax": 5575218.2964719115,
+        "spatialReference": {
+          "wkid": 102100
+        }
+      },
+      "lods": [
+        {
+          "level": 0,
+          "scale": 9244648.868618,
+          "resolution": 2445.98490512499
+        },
+        {
+          "level": 1,
+          "scale": 4622324.434309,
+          "resolution": 1222.992452562495
+        },
+        {
+          "level": 2,
+          "scale": 2311162.217155,
+          "resolution": 611.4962262813797
+        },
+        {
+          "level": 3,
+          "scale": 1155581.108577,
+          "resolution": 305.74811314055756
+        },
+        {
+          "level": 4,
+          "scale": 577790.554289,
+          "resolution": 152.87405657041106
+        },
+        {
+          "level": 5,
+          "scale": 288895.277144,
+          "resolution": 76.43702828507324
+        },
+        {
+          "level": 6,
+          "scale": 144447.638572,
+          "resolution": 38.21851414253662
+        },
+        {
+          "level": 7,
+          "scale": 72223.819286,
+          "resolution": 19.10925707126831
+        },
+        {
+          "level": 8,
+          "scale": 36111.909643,
+          "resolution": 9.554628535634155
+        },
+        {
+          "level": 9,
+          "scale": 18055.954822,
+          "resolution": 4.77731426794937
+        },
+        {
+          "level": 10,
+          "scale": 9027.977411,
+          "resolution": 2.388657133974685
+        },
+        {
+          "level": 11,
+          "scale": 4513.988705,
+          "resolution": 1.1943285668550503
+        },
+        {
+          "level": 12,
+          "scale": 2256.994353,
+          "resolution": 0.5971642835598172
+        },
+        {
+          "level": 13,
+          "scale": 1128.497176,
+          "resolution": 0.29858214164761665
+        },
+        {
+          "level": 14,
+          "scale": 564.248588,
+          "resolution": 0.14929107082380833
+        },
+        {
+          "level": 15,
+          "scale": 282.124294,
+          "resolution": 0.07464553541190416
+        },
+        {
+          "level": 16,
+          "scale": 141.062147,
+          "resolution": 0.03732276770595208
+        },
+        {
+          "level": 17,
+          "scale": 70.5310735,
+          "resolution": 0.01866138385297604
+        }
+      ]
+    },
+    "id": "map",
+    "portalUrl": "https://plumbum.maps.arcgis.com",
+    "appProxy": {
+      "mapItemId": "c9923d2a7f36482b9df8d3b7524f37d5",
+      "proxyItems": []
+    }
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/LaunchpadTheme/panels/LaunchpadPanel/Panel",
+      "position": {
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "name": "LayerList",
+        "label": "Capas y Leyenda",
+        "version": "2.19",
+        "uri": "widgets/LayerList/Widget",
+        "config": "configs/LayerList/config_widgets_LayerList_Widget_40.json",
+        "index": 2,
+        "id": "widgets_LayerList_Widget_40"
+      },
+      {
+        "name": "BasemapGallery",
+        "version": "2.19",
+        "uri": "widgets/BasemapGallery/Widget",
+        "config": "configs/BasemapGallery/config_widgets_BasemapGallery_Widget_36.json",
+        "index": 3,
+        "id": "widgets_BasemapGallery_Widget_36"
+      },
+      {
+        "name": "Summary",
+        "version": "2.19",
+        "uri": "widgets/Summary/Widget",
+        "config": "configs/Summary/config_widgets_Summary_Widget_39.json",
+        "index": 4,
+        "id": "widgets_Summary_Widget_39",
+        "position": {
+          "relativeTo": "map"
+        }
+      },
+      {
+        "name": "NearMe",
+        "version": "2.19",
+        "IsController": false,
+        "uri": "widgets/NearMe/Widget",
+        "config": "configs/NearMe/config_widgets_NearMe_Widget_41.json",
+        "index": 6,
+        "id": "widgets_NearMe_Widget_41"
+      }
+    ],
+    "groups": []
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": [
+        {
+          "uri": "themes/LaunchpadTheme/widgets/AnchorBarController/Widget",
+          "position": {
+            "bottom": 0,
+            "height": 40,
+            "width": "100%",
+            "zIndex": 0,
+            "relativeTo": "map"
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "themes/LaunchpadTheme/widgets/Header/Widget",
+          "position": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "height": 46,
+            "relativeTo": "map"
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/Search/Widget",
+          "position": {
+            "left": 10,
+            "top": 10,
+            "right": 10,
+            "zIndex": 0,
+            "relativeTo": "map"
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/OverviewMap/Widget",
+          "position": {
+            "right": 20,
+            "top": 20
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/ZoomSlider/Widget",
+          "position": {
+            "right": 10,
+            "bottom": 160,
+            "relativeTo": "map"
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/HomeButton/Widget",
+          "position": {
+            "right": 10,
+            "bottom": 75,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "uri": "widgets/MyLocation/Widget",
+          "inPanel": false,
+          "position": {
+            "right": 10,
+            "bottom": 115,
+            "relativeTo": "map"
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/AttributeTable/Widget",
+          "version": "2.19",
+          "position": {
+            "left": 10,
+            "bottom": 70,
+            "relativeTo": "map"
+          },
+          "closeable": true
+        },
+        {
+          "uri": "widgets/Coordinate/Widget",
+          "position": {
+            "left": 20,
+            "bottom": 60
+          }
+        },
+        {
+          "uri": "widgets/Scalebar/Widget",
+          "position": {
+            "left": 50,
+            "bottom": 70,
+            "relativeTo": "map"
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/Splash/Widget",
+          "visible": false,
+          "position": {
+            "relativeTo": "browser"
+          },
+          "version": "2.19"
+        },
+        {
+          "position": {
+            "left": 10,
+            "bottom": 195,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "left": 10,
+            "bottom": 155,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "left": 10,
+            "bottom": 115,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "uri": "widgets/ExtentNavigate/Widget",
+          "visible": false,
+          "position": {
+            "right": 10,
+            "bottom": 238,
+            "relativeTo": "map"
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/FullScreen/Widget",
+          "visible": false,
+          "position": {
+            "right": 70,
+            "top": 20
+          },
+          "version": "2.19"
+        }
+      ]
+    },
+    "map": {
+      "position": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      }
+    },
+    "widgetPool": {
+      "panel": {
+        "uri": "themes/LaunchpadTheme/panels/LaunchpadPanel/Panel"
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#000000",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/loading.gif",
+      "width": 380,
+      "height": 250
+    }
+  },
+  "wabVersion": "2.19",
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "dataSource": {
+    "dataSources": {},
+    "settings": {}
+  },
+  "appItemId": "cd73a41d17dd41238734a89b168e13dd",
+  "logoAlt": "",
+  "logoLink": ""
+}

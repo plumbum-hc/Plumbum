@@ -1,0 +1,333 @@
+{
+  "fontColor": "#000000",
+  "highlightColor": "#11d6d6",
+  "showSelectionColor": true,
+  "searchLayers": [
+    {
+      "url": "https://services5.arcgis.com/EzWm9P3nNDBrNYaq/arcgis/rest/services/Ubicacion_Contenedores/FeatureServer/0",
+      "geometryType": "esriGeometryPoint",
+      "id": "Ubicacion_Contenedores_8050",
+      "layerId": "0",
+      "baseURL": "https://services5.arcgis.com/EzWm9P3nNDBrNYaq/arcgis/rest/services/Ubicacion_Contenedores/FeatureServer/",
+      "isMapServer": false,
+      "title": "Ubicacion_Contenedores",
+      "visibility": true,
+      "popupInfo": {
+        "title": "{ENTIDAD}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "visible": false,
+            "isEditable": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            },
+            "label": "OBJECTID"
+          },
+          {
+            "fieldName": "FECHA",
+            "visible": false,
+            "isEditable": false,
+            "label": "FECHA",
+            "format": {
+              "dateFormat": "shortDateShortTime",
+              "timezone": "utc"
+            }
+          },
+          {
+            "fieldName": "CANTIDAD",
+            "visible": true,
+            "isEditable": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            },
+            "label": "Nº Contenedores:"
+          },
+          {
+            "fieldName": "ENTIDAD",
+            "visible": false,
+            "isEditable": false,
+            "label": "ENTIDAD"
+          },
+          {
+            "fieldName": "RESPONSABLE_FIRMA",
+            "visible": false,
+            "isEditable": false,
+            "label": "RESPONSABLE/FIRMA"
+          },
+          {
+            "fieldName": "UBICACION",
+            "visible": true,
+            "isEditable": false,
+            "label": "UBICACION"
+          },
+          {
+            "fieldName": "CONTRATO",
+            "visible": false,
+            "isEditable": false,
+            "label": "CONTRATO"
+          },
+          {
+            "fieldName": "DEVUELTO",
+            "visible": false,
+            "isEditable": false,
+            "label": "DEVUELTO"
+          },
+          {
+            "fieldName": "ENTREGA",
+            "visible": false,
+            "isEditable": false,
+            "label": "ENTREGA"
+          },
+          {
+            "fieldName": "LOGO_en_WEB",
+            "visible": false,
+            "isEditable": false,
+            "label": "LOGO en WEB"
+          },
+          {
+            "fieldName": "tenemos_logo_",
+            "visible": false,
+            "isEditable": false,
+            "label": "tenemos logo?"
+          },
+          {
+            "fieldName": "MAIL",
+            "visible": false,
+            "isEditable": false,
+            "label": "MAIL"
+          },
+          {
+            "fieldName": "web",
+            "visible": true,
+            "isEditable": true,
+            "label": "web"
+          },
+          {
+            "fieldName": "telefono",
+            "visible": true,
+            "isEditable": true,
+            "label": "telefono"
+          },
+          {
+            "fieldName": "fecha_de_contacto",
+            "visible": false,
+            "isEditable": false,
+            "label": "fecha de contacto",
+            "format": {
+              "dateFormat": "shortDateShortTime",
+              "timezone": "utc"
+            }
+          },
+          {
+            "fieldName": "comentarios",
+            "visible": false,
+            "isEditable": false,
+            "label": "comentarios"
+          },
+          {
+            "fieldName": "URL_Logo",
+            "visible": false,
+            "isEditable": false,
+            "label": "URL_Logo"
+          },
+          {
+            "fieldName": "X",
+            "visible": false,
+            "isEditable": false,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            },
+            "label": "X"
+          },
+          {
+            "fieldName": "Y",
+            "visible": false,
+            "isEditable": false,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            },
+            "label": "Y"
+          }
+        ],
+        "description": null,
+        "showAttachments": false,
+        "mediaInfos": [
+          {
+            "title": null,
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "{URL_Logo}",
+              "linkURL": ""
+            }
+          }
+        ]
+      },
+      "renderer": {
+        "visualVariables": [
+          {
+            "field": "CANTIDAD",
+            "rotationType": "geographic",
+            "type": "rotationInfo"
+          }
+        ],
+        "type": "simple",
+        "symbol": {
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriPMS",
+          "url": "https://plumbum.maps.arcgis.com/sharing/rest/content/items/52c2103082b8484089614dfc679910b9/data",
+          "width": 18.75,
+          "height": 23.84227019498608
+        }
+      }
+    }
+  ],
+  "bufferInfo": {
+    "isVisible": false
+  },
+  "defaultBufferDistance": 15,
+  "maxBufferDistance": 100,
+  "bufferDistanceUnit": {
+    "bufferUnit": "UNIT_KILOMETER",
+    "routeUnit": "KILOMETERS",
+    "distanceUnit": "kilometers",
+    "label": "Kilómetros",
+    "acronym": "km",
+    "value": "kilometers"
+  },
+  "zoomToFeature": true,
+  "intersectSearchedLocation": false,
+  "enableProximitySearch": true,
+  "routeService": "https://route.arcgis.com/arcgis/rest/services/World/Route/NAServer/Route_World",
+  "directionLengthUnit": {
+    "bufferUnit": "UNIT_STATUTE_MILE",
+    "routeUnit": "MILES",
+    "distanceUnit": "miles",
+    "label": "Millas",
+    "acronym": "mi",
+    "value": "miles"
+  },
+  "selectedSearchLayerOnly": true,
+  "isGeodesic": false,
+  "showLocationTool": true,
+  "symbols": {
+    "routeSymbol": {
+      "color": [
+        21,
+        99,
+        184,
+        255
+      ],
+      "width": 3.75,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "graphicLocationSymbol": {
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "type": "esriPMS",
+      "url": "http://static.arcgis.com/images/Symbols/Basic/Populated6.png",
+      "imageData": "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",
+      "contentType": "image/png",
+      "width": 22.5,
+      "height": 22.5
+    },
+    "polylineSymbol": {
+      "color": [
+        21,
+        99,
+        184,
+        255
+      ],
+      "width": 3.75,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "polygonSymbol": {
+      "color": [
+        155,
+        187,
+        89,
+        128
+      ],
+      "outline": {
+        "color": [
+          115,
+          140,
+          61,
+          255
+        ],
+        "width": 1.5,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    },
+    "bufferSymbol": {
+      "color": [
+        255,
+        0,
+        0,
+        0
+      ],
+      "outline": {
+        "color": [
+          255,
+          189,
+          1,
+          255
+        ],
+        "width": 2.25,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "maxResultCount": null,
+  "searchSourceSettings": {
+    "allPlaceholder": "",
+    "showInfoWindowOnSelect": true,
+    "sources": [
+      {
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+        "name": "ArcGIS World Geocoding Service",
+        "singleLineFieldName": "SingleLine",
+        "placeholder": "Buscar dirección o lugar",
+        "countryCode": "",
+        "zoomScale": 50000,
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "searchInCurrentMapExtent": false,
+        "enableLocalSearch": true,
+        "localSearchMinScale": 300000,
+        "localSearchDistance": 50000,
+        "type": "locator"
+      }
+    ]
+  },
+  "attributeSymbology": [],
+  "filterSettings": {
+    "collapse": false,
+    "groupFiltersByLayer": false,
+    "expandFiltersOnLoad": false,
+    "filters": []
+  },
+  "showImageGallery": true,
+  "showFeaturesCount": true,
+  "editorDescription": "Busca una dirección o pincha en el mapa",
+  "noFeatureFoundMessage": "<div style=\"text-align: center;\">¡Lo sentimos! No hemos encontrado ningún contenedor cerca de ti. Realiza de nuevo tu consulta con una distancia más amplia.&nbsp;</div><div style=\"text-align: center;\"><br></div><div style=\"text-align: center;\">¡Gracias por colaborar!</div>",
+  "showCurrentLocationTool": false,
+  "enableDirection": true,
+  "bufferInputOption": "slider"
+}

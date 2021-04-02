@@ -1,0 +1,29 @@
+{
+  "displayCluster": true,
+  "showFeatureCount": false,
+  "featureCountLabel": "",
+  "summaryLayer": {
+    "fields": [
+      {
+        "type": "SUM",
+        "label": "Kg de plomo",
+        "field": "Kg"
+      },
+      {
+        "type": "SUM",
+        "label": "Piezas",
+        "field": "PIEZAS"
+      },
+      {
+        "type": "SUM",
+        "label": "Voluntarios",
+        "field": "TOTAL_VOLUNTARIOS"
+      }
+    ],
+    "id": "Finales_act_130_2055",
+    "name": "Actividades en campo",
+    "filterField": "LUGAR",
+    "url": "Finales_act_130_2055"
+  },
+  "refreshInterval": 15
+}
